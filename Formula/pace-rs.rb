@@ -1,20 +1,20 @@
 class PaceRs < Formula
   desc "pace - Mindful Time Tracking: Simplify Your Focus and Boost Productivity Effortlessly."
-  version "0.11.1"
+  version "0.12.0"
   on_macos do
     on_arm do
-      url "https://github.com/pace-rs/pace/releases/download/pace-rs-v0.11.1/pace-rs-aarch64-apple-darwin.tar.xz"
-      sha256 "5d5f4dea84ae45452e87a1d8f2d29b45802a7041c69cd2d9035df59886512181"
+      url "https://github.com/pace-rs/pace/releases/download/pace-rs-v0.12.0/pace-rs-aarch64-apple-darwin.tar.xz"
+      sha256 "404b9d52f9a79adaf8e98f35f87725078186c28e4fb5e3d885f7cffcb381bff1"
     end
     on_intel do
-      url "https://github.com/pace-rs/pace/releases/download/pace-rs-v0.11.1/pace-rs-x86_64-apple-darwin.tar.xz"
-      sha256 "d935403322d49641462cef7461fde494a4c7b96b0280aafd3a658df6f369db7d"
+      url "https://github.com/pace-rs/pace/releases/download/pace-rs-v0.12.0/pace-rs-x86_64-apple-darwin.tar.xz"
+      sha256 "305d37d9aed65adbabbe0887b047bf8b9056c8cc354b56b7d174d74a3da5f832"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/pace-rs/pace/releases/download/pace-rs-v0.11.1/pace-rs-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "cfa564743bae024c5344db16eff2925f36abe467a484020f333e355a426a58eb"
+      url "https://github.com/pace-rs/pace/releases/download/pace-rs-v0.12.0/pace-rs-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "19c402732cc4de90214c1cf94d167cf5b5e28471be76c4f294ae80bc6e264058"
     end
   end
   license "AGPL-3.0-or-later"
